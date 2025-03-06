@@ -29,6 +29,12 @@ const Home = () => {
           <strong>Email:</strong> <a href="mailto:imamshan369@gmail.com" style={{ color: "#4db6ac", textDecoration: "none" }}>imamshan369@gmail.com</a>
         </Typography>
 
+
+        {/* GitHub */}
+        <Typography variant="body1" align="center" sx={{ marginTop: 1 }}>
+          <strong>Github:</strong> <a href="https://github.com/Shaik-36/stock-price-prediction-dissertation" style={{ color: "#4db6ac", textDecoration: "none" }}>Shaik-36/stock-price-prediction-dissertation</a>
+        </Typography>
+
         {/* Project Image Section */}
         <Box mt={4} mb={3} textAlign="center">
           <Typography variant="h5" gutterBottom>Project Visualization</Typography>
