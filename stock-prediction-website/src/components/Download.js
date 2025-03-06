@@ -9,7 +9,7 @@ const Download = () => {
         <Button variant="contained" color="primary" href="/dissertation.pdf" download>
           Download Dissertation
         </Button>
-        <Button variant="contained" color="secondary" href="/datasets.zip" download sx={{ marginLeft: 2 }}>
+        <Button variant="contained" color="secondary" href="https://github.com/Shaik-36/stock-price-prediction-dissertation/tree/main/Datasets" download sx={{ marginLeft: 2 }}>
           Download Datasets
         </Button>
       </Paper>
