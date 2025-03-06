@@ -41,7 +41,7 @@ The research questions seek to understand how a large amount of sentiment data a
 This thesis proposes a methodology that combines two datasets from the same day: tweets and stock data. Over 100,000 tweets for each stock were collected from the Dow 30 Stocks dataset. Text cleaning and tokenization are performed using multiple Python library tools, followed by feature extraction from Twitter tweets. Using VADER and TextBlob, the cleaned tweets are then labelled with sentiment scores. The acquired scores are weighted and summed to get an overall sentiment score, which is then fed into an LSTM model with predefined hyperparameters.
 
 Our LSTM-based model demonstrates superior performance in forecasting McDonald’s (MCD) stock prices among Dow 30 Stocks, achieving reduced MSE and RMSE by tuning hyperparameters. The utilisation of cross-validation additionally enhances the R² value for McDonald's stock from 0.821 to 0.916.
-
+```
 📺 stock-price-prediction
  ├📂 public
  ┃ ├📄 index.html        # Main HTML Template
