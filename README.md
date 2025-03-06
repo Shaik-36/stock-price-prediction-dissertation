@@ -1,21 +1,30 @@
-# Stock Price Prediction Using Sentiment Analysis and LSTM
+📈 Stock Price Prediction using LSTM & Sentiment Analysis
 
-Welcome to the **stock-price-prediction-dissertation** repository! This project demonstrates how to leverage sentiment analysis on Twitter data combined with machine learning (particularly an LSTM model) to predict stock prices. The repository includes code for data collection, preprocessing, feature engineering, sentiment analysis, and time-series modeling of stock prices.
+🚀 Live Website: Stock Price Prediction📚 GitHub Repository: View on GitHub📧 Contact: imamshan369@gmail.com
 
-## Table of Contents
+📌 Project Overview
 
-- [Overview](#overview)
-- [Thesis Abstract](#thesis-abstract)
-- [Repository Structure](#repository-structure)
-- [Prerequisites](#prerequisites)
-- [Usage Instructions](#usage-instructions)
-  1. [Sentiment Analysis (Part 1)](#1-sentiment-analysis-part-1)
-  2. [Stock Data Analysis (Part 2)](#2-stock-data-analysis-part-2)
-  3. [Merging Sentiment & Stock Data (Part 3)](#3-merging-sentiment--stock-data-part-3)
-  4. [LSTM Modeling & Evaluation](#4-lstm-modeling--evaluation)
-- [Key Results](#key-results)
-- [License](#license)
-- [Contact](#contact)
+Predicting stock prices is a complex task influenced by market trends, financial data, and investor sentiment. This project integrates Long Short-Term Memory (LSTM) deep learning models with sentiment analysis of social media data to enhance stock price forecasting.
+
+🔹 Key Features:
+
+✔ Real-time Stock Data Analysis using Yahoo Finance API✔ Sentiment Analysis of 100,000+ tweets per stock (VADER & TextBlob)✔ Machine Learning Model (LSTM) for stock price prediction✔ Interactive UI using React, Tailwind CSS, and Material UI✔ Dataset & Research Available for Study & Download
+
+🏢 How This Project is Built
+
+🔹 Tech Stack:
+
+Frontend: React, Tailwind CSS, Material UI
+
+Backend: Appwrite (Authentication & Database)
+
+Machine Learning Model: LSTM (Long Short-Term Memory)
+
+Data Processing: Python, Pandas, NumPy, Scikit-learn
+
+Sentiment Analysis: VADER, TextBlob
+
+Stock Data: Yahoo Finance API (yfinance)
 
 ## Overview
 
@@ -33,28 +42,22 @@ This thesis proposes a methodology that combines two datasets from the same day:
 
 Our LSTM-based model demonstrates superior performance in forecasting McDonald’s (MCD) stock prices among Dow 30 Stocks, achieving reduced MSE and RMSE by tuning hyperparameters. The utilisation of cross-validation additionally enhances the R² value for McDonald's stock from 0.821 to 0.916.
 
-## Repository Structure
-
-```yaml
-stock-price-prediction-dissertation/
-│
-├── datasets/
-│   ├── <Twitter CSV files>        # Place your tweet datasets here
-│   ├── <Other relevant CSV files> # Additional data can be stored here
-│   └── ...
-│
-├── ML Models/
-│   ├── <Saved model files>        # (Optional) Trained model weights, if you choose to save them
-│   └── ...
-│
-├── LICENSE                        # MIT License
-├── MS Thesis - Stock Price Prediction - Imammuddin.pdf
-├── README.md                      # You are here!
-└── code/ or root-level scripts
-    ├── [Part 1: Sentiment Analysis Code]
-    ├── [Part 2: Stock Data Analysis Code]
-    ├── [Part 3: Merging Data & Feature Engineering Code]
-    └── [Part 4: LSTM Model & Evaluation Code]
+📺 stock-price-prediction
+ ├📂 public
+ ┃ ├📄 index.html        # Main HTML Template
+ ├📂 src
+ ┃ ├📂 components
+ ┃ ┃ ├📄 Home.js         # Homepage with project overview
+ ┃ ┃ ├📄 ProjectDetails.js # Detailed explanation of ML model
+ ┃ ┃ ├📄 Notebooks.js    # Jupyter Notebook visualization
+ ┃ ┃ ├📄 Download.js     # Download research and datasets
+ ┃ ┃ ├📄 Navbar.js       # Top navigation bar
+ ├📄 App.js            # Main Routing Component
+ ├📂 model
+ ┃ ├📄 LSTM_model.ipynb  # Jupyter Notebook containing LSTM Model
+ ├📄 package.json        # Project dependencies
+ ├📄 README.md           # Documentation
+ └📄 .gitignore          # Ignored files for GitHub
 ```
 
 **Note:**  
