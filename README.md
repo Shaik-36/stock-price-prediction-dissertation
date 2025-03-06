@@ -1,6 +1,10 @@
 📈 Stock Price Prediction using LSTM & Sentiment Analysis
 
-[![Stock Price Prediction](image.png)](https://stock-price-prediction-lac.vercel.app/)
+[Live Website](https://stock-price-prediction-lac.vercel.app/)
+
+
+<img width="782" alt="Screenshot 2025-03-06 124654" src="https://github.com/user-attachments/assets/0488be30-2d78-4a74-b596-529e22f99841" />
+
 
 **Features:**
 
