@@ -1,6 +1,12 @@
 📈 Stock Price Prediction using LSTM & Sentiment Analysis
 
-🚀 Live Website: Stock Price Prediction📚 GitHub Repository: View on GitHub📧 Contact: imamshan369@gmail.com
+[![Stock Price Prediction](image.png)](https://stock-price-prediction-lac.vercel.app/)
+
+**Features:**
+
+* Predicts future stock prices based on historical data.
+* Incorporates sentiment analysis from news articles and social media.
+* Provides a user-friendly interface for visualizing predictions.
 
 📌 Project Overview
 
